@@ -1,7 +1,7 @@
 
 // import { useContext,useState } from 'react';
 import './App.css';
-// import Basic from './Basic';
+import Basic from './Basic';
 import BasicTwo from './BasicTwo';
 
 
@@ -26,7 +26,7 @@ function App() {
     <button onClick={changeColor}>Click me</button>
     </div> */}
    
-
+<Basic/>
 <BasicTwo/>
     </>
   );
